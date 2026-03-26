@@ -1,0 +1,23 @@
+# Assignment 3: React & Tailwind Practice
+
+## Project Idea
+This project is a clean, responsive landing page for a university "CS & Math Society". The goal of the page is to attract new students by highlighting the club's focus on programming, algorithms, and advanced mathematics, providing a quick overview of activities and a call-to-action to join.
+
+## Project Structure
+The project is built using React and Vite, utilizing TypeScript for type safety.
+All UI parts are modularized inside the `src/components/` directory:
+- `src/App.tsx`: Main layout container bringing all components together.
+- `src/components/`: Directory containing all modular UI components.
+
+## Components Used
+1. **Navbar**: A responsive top navigation bar.
+2. **Hero**: The main introductory section featuring a call-to-action button with CSS hover and transform effects.
+3. **Card**: A highly reusable UI component taking `title`, `description`, and `icon` props. It is mapped dynamically to display the club's features in a responsive CSS Grid.
+4. **Footer**: A simple, clean copyright footer.
+
+## How to Run
+1. Clone the repository: `git clone <your-repo-link-here>`
+2. Navigate into the directory: `cd <your-folder-name>`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your browser and visit `http://localhost:5173`
